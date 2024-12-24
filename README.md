@@ -48,5 +48,7 @@ PESUbytes is a takeaway food ordering system designed specifically for college s
 
 ---
 
+This is a group project done by my friends and me as an end-sem project related to Full-Stack developement.
+
 Enjoy hassle-free food ordering with **PESUbytes**! 🍔🍕
 
