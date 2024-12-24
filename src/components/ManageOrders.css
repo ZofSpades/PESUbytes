@@ -1,0 +1,111 @@
+body {
+    background: url('pes.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    padding-top: 20px;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .user-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logout-btn, #menu-items-btn {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Add some space between the buttons */
+  }
+  
+  #logout-btn:hover, #menu-items-btn:hover {
+    background-color: #e65c00;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: static;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .order-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .order-item {
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .order-item h3 {
+    margin: 0;
+  }
+  
+  .order-item p {
+    margin: 5px 0;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(21, 0, 99);
+    width: 100%;
+  }
+  
+  footer a {
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
